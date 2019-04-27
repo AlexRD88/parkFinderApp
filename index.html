@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Asynchronous Web App API Assignment">
+    <meta name="author" content="Alexander Dawson">
+    <title>National Parks Service API Finder App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+    <main role="main" class="container">
+        <section class="app-container">
+            <form id="search-form">
+                <h1>Search U.S. National Parks</h1>
+                <p>Input state abbreviation for a list of national parks.</p>
+                <input type="text" id="state-name-input" class="form-control" placeholder="FL = Florida" required>
+                <br>
+                <p>Number of parks for your list.</p>
+                <input type="text" id="number-input" class="form-control" placeholder="Default 10 park results" />
+                <br>
+                <br>
+                <input id="submit-button" class="btn btn-primary" type="submit" value="Submit" />
+            </form>
+        </section>
+        <section id='js-resultsList' class="hidden"></section>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color:rgb(255, 255, 255);
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 50%;
+  margin-left: 10px;
+  padding-left: 15px;
+  padding-bottom: 25px;
+  border: 2px solid black;
+}
+
+h1 {
+  color: rgb(42, 83, 218);
+}
+
+.hidden {
+  display: none;
+}
+
+.results-title {
+  color: rgb(42, 83, 218);
+  font-size: 26px;
+}
+
+.form-control {
+  background-color: lightblue;
+  width: 50%;
+}
